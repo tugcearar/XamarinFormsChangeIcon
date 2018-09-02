@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:XamarinFormsChangeIcon" 
+             x:Class="XamarinFormsChangeIcon.MainPage">
+    <StackLayout Spacing="20"
+                 VerticalOptions="Center">
+        <Button Clicked="Orange_Clicked" Text="Orange Icon"
+                HorizontalOptions="CenterAndExpand"
+                WidthRequest="200"
+                TextColor="White"
+                BackgroundColor="#FCA415"></Button>
+         <Button Clicked="Apple_Clicked" Text="Apple Icon"
+                HorizontalOptions="CenterAndExpand"
+                WidthRequest="200"
+                TextColor="White"
+                BackgroundColor="Red"></Button>
+    </StackLayout>
+</ContentPage>
